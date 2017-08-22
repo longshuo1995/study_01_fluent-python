@@ -1,0 +1,5 @@
+tup = (1, 2, 3, 3, 4)
+count = tup.count(3)
+print(count)
+index = tup.index(3, 2)
+print(index)

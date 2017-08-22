@@ -1,0 +1,8 @@
+tup = (1, 2, 3)
+res = tup.__add__((1, 2))
+print(tup)
+print(res)
+print(id(tup))
+tup += (2, 3)
+print(tup)
+print(id(tup))
